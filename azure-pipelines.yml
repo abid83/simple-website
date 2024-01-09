@@ -8,9 +8,6 @@ server:
   app: express()
   port: 3000
 
-routes:
-  - path: '/'
-    method: GET
     handler: (req, res) => res.send('Hello, this is a simple website!')
 
 server_start:
